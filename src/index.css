@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+/*
+  @theme is how Tailwind v4 registers design tokens.
+  Anything defined here becomes a Tailwind utility automatically:
+  --color-primary  ->  bg-primary, text-primary, border-primary, etc.
+  This keeps BiteHub's brand colors in ONE place instead of
+  hardcoding hex values across components.
+*/
+@theme {
+  --color-primary: #6c63ff;
+  --color-primary-dark: #5548e6;
+  --color-primary-light: #efeeff;
+
+  --color-background: #f9fafb;
+  --color-ink: #111827;
+
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
