@@ -8,7 +8,7 @@ dashboard for restaurant/order management.
 > **Status:** 🚧 In active development. This README is updated at the end
 > of every milestone. See [Roadmap](#roadmap) for progress.
 
-## ✨ Live Demo
+## ✨🚧 Deployment in progress
 
 _Coming soon — will be deployed via Vercel/Netlify._
 
