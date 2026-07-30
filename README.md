@@ -1,18 +1,18 @@
-# 🍔 BiteHub
+# BiteHub
 
 A modern, full-featured food delivery platform UI built as a professional
 portfolio project. BiteHub lets users browse restaurants, filter by
 category, manage a cart, check out, and track orders — with an admin
 dashboard for restaurant/order management.
 
-> **Status:** 🚧 In active development. This README is updated at the end
+> **Status:**  In active development. This README is updated at the end
 > of every milestone. See [Roadmap](#roadmap) for progress.
 
-## ✨🚧 Deployment in progress
+## Deployment in progress
 
 _Coming soon — will be deployed via Vercel/Netlify._
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer            | Technology                          |
 | ----------------- | ------------------------------------ |
@@ -28,7 +28,7 @@ This project intentionally avoids Next.js, TypeScript, and component
 libraries (MUI, Chakra, Ant Design, Bootstrap) — every UI element is
 hand-built with Tailwind to demonstrate core React + CSS fundamentals.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -54,7 +54,7 @@ map directly onto a real Spring Boot backend: `services/` is the only
 layer that will need to change when mock data is replaced with live API
 calls.
 
-## 🎨 Design System
+## Design System
 
 | Token       | Value     | Usage                        |
 | ----------- | --------- | ----------------------------- |
@@ -66,7 +66,7 @@ Defined once in `src/index.css` via Tailwind's `@theme` directive, and
 consumed everywhere as standard utility classes (`bg-primary`,
 `text-ink`, etc.) rather than hardcoded hex values.
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1. Clone the repository
@@ -94,16 +94,16 @@ The app will be available at `http://localhost:5173`.
 | `npm run preview`   | Preview the production build locally  |
 | `npm run lint`      | Run the linter                        |
 
-## 🗺 Roadmap
+## Roadmap
 
-- [x] **Milestone 1** — Project setup, routing, layout shell, landing page
-- [ ] **Milestone 2** — Authentication (Login/Register) with Context API
-- [ ] **Milestone 3** — Restaurant listing, details, and home feed
-- [ ] **Milestone 4** — Search, category filters, shopping cart
-- [ ] **Milestone 5** — Checkout flow and order history
-- [ ] **Milestone 6** — User profile management
-- [ ] **Milestone 7** — Admin dashboard
-- [ ] **Milestone 8** — Spring Boot API integration
+- [x] **Phase 1** — Project setup, routing, layout shell, landing page
+- [ ] **Phase 2** — Authentication (Login/Register) with Context API
+- [ ] **Phase 3** — Restaurant listing, details, and home feed
+- [ ] **Phase 4** — Search, category filters, shopping cart
+- [ ] **Phase 5** — Checkout flow and order history
+- [ ] **Phase 6** — User profile management
+- [ ] **Phase 7** — Admin dashboard
+- [ ] **Phase 8** — Spring Boot API integration
 - [ ] **Milestone 9** — Testing, accessibility pass, deployment
 
 ## 📄 License
